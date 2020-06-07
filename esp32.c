@@ -1,7 +1,6 @@
 /*********
-  Rui Santos
-  Complete project details at https://randomnerdtutorials.com
-  Based on the NTP Client library example
+  Create by Thang Nguyen Tien
+  Release Jan,2020 .
 *********/
 
 #include <WiFi.h>
@@ -140,7 +139,7 @@ void loop() {
   Serial.println("Pyroject attendance");
   Serial.println("Please insert your card");
 
-  // Hien thi so UID cua the
+  // Display UID on terminal
   Serial.println("Card UID: ");
   for (byte i = 0; i < mfrc522.uid.size; i++) 
   {
